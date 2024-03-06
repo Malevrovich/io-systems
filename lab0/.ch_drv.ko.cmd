@@ -1,0 +1,1 @@
+cmd_/home/malevrovich/io_labs/lab0/ch_drv.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/malevrovich/io_labs/lab0/ch_drv.ko /home/malevrovich/io_labs/lab0/ch_drv.o /home/malevrovich/io_labs/lab0/ch_drv.mod.o;  true
